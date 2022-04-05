@@ -1,0 +1,32 @@
+.menu {
+    background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.btn-reset {
+    all: unset;
+    width: 160px;
+    height: 52px;
+    background-color: #f0c551;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-reset:hover {
+    opacity: 0.7;
+}
